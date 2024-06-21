@@ -207,4 +207,8 @@ class User implements UserInterface, PasswordAuthenticatedUserInterface
 
     public function setGuestNumber(?int $guestNumber): static
     {
-        $this->guestNumber = $guest
+        $this->guestNumber = $guestNumber;
+
+        return $this;
+    }
+}

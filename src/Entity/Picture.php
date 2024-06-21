@@ -89,4 +89,8 @@ class Picture
 
     public function setRestaurant(?Restaurant $restaurant): static
     {
-        $this->restaurant = $rest
+        $this->restaurant = $restaurant;
+
+        return $this;
+    }
+}
