@@ -36,7 +36,7 @@ mounts:
     "/var": { source: local, source_path: var }
 
 relationships:
-   database: "database:mysqldump"
+   database: "database:mysql"
     
 
 hooks:
